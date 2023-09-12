@@ -15,6 +15,7 @@
   "author": "mac",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^5.3.1",
     "electron-is-dev": "^2.0.0",
     "electron-isDev": "^0.1.0",
     "electron-squirrel-startup": "^1.0.0",

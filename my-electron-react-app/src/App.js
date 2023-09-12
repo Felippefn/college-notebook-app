@@ -1,13 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
+import './App.css'; // You can import your CSS here
+import Header from './components/Header';
+import Home from './pages/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div classname="App">
-      <h1>Hello, Electron and React!</h1>
+    <div className="App">
+      <Header />
+      <main>
+        <Home />
+      </main>
+      <Footer />
     </div>
-    );
+  );
 }
 
 export default App;
